@@ -1,0 +1,13 @@
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "yoshita_qms"
+version = "0.1.0"
+description = "Yoshita QMS: AS9100 quality procedures and SF forms for ERPNext"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.flit.module]
+name = "yoshita_qms"
